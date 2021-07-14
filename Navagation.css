@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        body  {
+            margin: 0;
+            background: rgba(23, 67, 109, 0.384);
+            font-family: 'Yellowtail';
+            font-weight: 800;
+        }
+            .container {
+            width: 80%;             
+            margin: 0 auto; 
+        }
+            header {
+            background: #55d67583; 
+            font-family:"Yellowtail"; 
+        }
+            header::after {     
+            content: '';
+            display: table;
+            clear: both;
+        }    
+            .logo { 
+            float: left;
+            padding: 50px 0;
+        }
+            nav {
+            float: right;
+        }
+            nav ul {                        
+            margin: 0;
+            padding: 0;
+            list-style: none; 
+        }
+            nav li {
+            display: inline-block;
+            margin-left: 100px;
+            padding-top: 23px;
+            position: relative; 
+        }
+            nav a {                          
+            color: #444;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px; 
+        }
+            nav a:hover {     
+            color: #000;
+        }  
+            nav a::before {
+            content: '';
+            display: block;
+            height: 5px;
+            background-color: #444;
+
+            position: absolute;
+            top: 0;
+            width: 0%;
+            transition: all ease-in-out 250ms;
+        }
+            nav a:hover::before {
+            width: 200%;}  
+
+            p{
+                font-family: 'Satisfy', cursive
+        }
+            h1{
+                text-align:center;
+                font-size: 90px; 
+                margin: 0px;
+                padding-right:5px;
+        
+        }
+            .padding {
+            padding-bottom: 15px;
+
+        }
+        
+            h1{
+                 margin-right: 0px;
+                 
+                
+        }
+            .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
